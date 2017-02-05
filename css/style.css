@@ -1,0 +1,41 @@
+/*@import url("components/avatar.css");*/
+@import url("components/button.css");
+@import url("components/tabs.css");
+@import url("components/footer.css");
+@import url("components/banner.css");
+/*@import url("components/card.css");
+
+
+
+/*body {
+  margin: 0;
+  font-family: 'Loved by the King', cursive; sans-serif;
+}
+
+font-family: 'Loved by the King', cursive;
+font-family: 'Sue Ellen Francisco', cursive;
+
+h1, h2, h3 {
+  font-family: 'Loved by the King', cursive;
+}
+*//*
+#h2-card{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+
+#h2-card{
+  font-size: 20px;
+}
+
+.padded {
+    padding: 100px 0;
+    margin-bottom: 10px;
+}
+
+.wrapper-grey {
+  background: #F4F4F4;
+}
+*/

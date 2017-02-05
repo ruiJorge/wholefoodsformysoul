@@ -1,0 +1,35 @@
+.tabs{
+  display:flex;
+  position: absolute;
+  /*top: 8px;
+  right: 25px;*/
+  position: center;
+
+
+}
+
+.tab{
+  flex: 1 0 auto;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border-color: white;
+
+}
+
+ .tab p, .tab a{
+  font-weight: lighter;
+  opacity: 0.9;
+  width: auto;
+  color: white;
+  margin: 0;
+  display: block;
+}
+
+ .tab p:hover, .tab a:hover{
+
+  color: yellow;
+}
+
+
+

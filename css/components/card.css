@@ -1,0 +1,38 @@
+/* Your card CSS code here */
+.card{
+  height: 250px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  size: center;
+
+}
+
+.card-category{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 25px;
+}
+
+.card-description{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.avatar{
+  border-radius: 50%;
+}
+
+.avatar-large{
+  width: 50px;
+}
+
+.card-user{
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
