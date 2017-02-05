@@ -14,18 +14,18 @@
         </text>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-12">
             <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.574190444 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-13">
             <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-14">
             <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
-            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feOffset dx="0" dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
@@ -33,8 +33,8 @@
             <tspan x="137" y="211">for my soul</tspan>
         </text>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-16">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
         <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-17">
@@ -200,15 +200,17 @@
             <path d="M342.869,121.662 C343.518,121.83 343.909,122.495 343.739,123.143 C343.57,123.795 342.906,124.184 342.257,124.016 C341.607,123.847 341.218,123.183 341.386,122.532 C341.555,121.884 342.22,121.493 342.869,121.662" id="Fill-186" fill="#FFFFFF"></path>
             <path d="M331.199,103.417 C332.316,103.707 332.987,104.851 332.697,105.968 C332.408,107.084 331.265,107.756 330.147,107.465 C329.03,107.173 328.359,106.033 328.649,104.914 C328.94,103.797 330.083,103.127 331.199,103.417" id="Fill-187" fill="#FFFFFF"></path>
             <path d="M325.768,116.011 C327.04,116.343 327.806,117.643 327.475,118.919 C327.144,120.191 325.842,120.957 324.566,120.627 C323.293,120.296 322.528,118.993 322.86,117.719 C323.191,116.444 324.493,115.68 325.768,116.011" id="Fill-188" fill="#FFFFFF"></path>
-            <g id="Whole-Foods" transform="translate(352.562665, 76.631372) rotate(1.000000) translate(-352.562665, -76.631372) " fill-opacity="0.903306159" fill="#573517">
-                <use filter="url(#filter-12)" xlink:href="#text-11"></use>
-                <use filter="url(#filter-13)" xlink:href="#text-11"></use>
-                <use filter="url(#filter-14)" xlink:href="#text-11"></use>
+            <g id="Whole-Foods" transform="translate(352.562665, 76.631372) rotate(1.000000) translate(-352.562665, -76.631372) " stroke="#FFFFFF" stroke-width="2">
+                <use fill="#573517" fill-opacity="0.903306159" stroke-opacity="1" filter="url(#filter-12)" xlink:href="#text-11"></use>
+                <use fill="#573517" fill-opacity="0.903306159" stroke-opacity="1" filter="url(#filter-13)" xlink:href="#text-11"></use>
+                <use fill="#573517" fill-opacity="0.903306159" stroke-opacity="1" filter="url(#filter-14)" xlink:href="#text-11"></use>
+                <use xlink:href="#text-11"></use>
             </g>
-            <g id="for-my-soul" fill-opacity="0.903306159" fill="#573517">
-                <use filter="url(#filter-16)" xlink:href="#text-15"></use>
-                <use filter="url(#filter-17)" xlink:href="#text-15"></use>
-                <use filter="url(#filter-18)" xlink:href="#text-15"></use>
+            <g id="for-my-soul" stroke="#FFFFFF" stroke-width="2">
+                <use fill="#573517" fill-opacity="0.903306159" stroke-opacity="1" filter="url(#filter-16)" xlink:href="#text-15"></use>
+                <use fill="#573517" fill-opacity="0.903306159" stroke-opacity="1" filter="url(#filter-17)" xlink:href="#text-15"></use>
+                <use fill="#573517" fill-opacity="0.903306159" stroke-opacity="1" filter="url(#filter-18)" xlink:href="#text-15"></use>
+                <use xlink:href="#text-15"></use>
             </g>
         </g>
     </g>
